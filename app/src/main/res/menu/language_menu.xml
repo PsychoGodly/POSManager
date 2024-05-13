@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/translation"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+
+        app:showAsAction="always">
+        <menu>
+
+
+
+
+            <item
+                android:icon="@drawable/france"
+                android:id="@+id/local_french"
+                android:title="@string/text_french" />
+
+
+            <item
+                android:icon="@drawable/us"
+                android:id="@+id/local_english"
+                android:title="@string/text_english" />
+
+        </menu>
+    </item>
+</menu>
